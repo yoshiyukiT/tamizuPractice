@@ -2,7 +2,7 @@ package tamizuPractice;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void dispFizzBuzz(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		for(int i=1;i<=100;){
 			if(i%3==0 || i%5==0){
