@@ -41,14 +41,4 @@ public class Main {
 
 	}
 
-	private static boolean check(String str1,String str2,int num) {
-		// TODO 自動生成されたメソッド・スタブ
-
-		if(str1.matches(".*(.)\\1{" + num + ",}") && str2.contains(str1)) {
-			System.out.println("true");
-		}else{
-			System.out.println("false");
-		};
-		return true;
-	}
 }
